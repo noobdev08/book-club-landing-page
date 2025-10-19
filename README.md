@@ -1,5 +1,5 @@
 # 🌿 Team Leafly – Book Club Landing Page
-🔗 **Live Demo:** [View Site](capstone-group1-ccb.netlify.app)
+🔗 **Live Demo:** [View Site](https://capstone-group1-ccb.netlify.app)
 
 A modern and responsive **landing page** introducing a fictional community of readers — **Readers Hub** — built as part of Team Leafly’s capstone project. The goal is to attract book enthusiasts and collect newsletter sign-ups for future updates.
 
