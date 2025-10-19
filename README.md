@@ -91,6 +91,9 @@ The design system defines consistent:
 
 ---
 
+## View Live Site Here
+- (View Live Here)[capstone-group1-ccb.netlify.app]
+
 ## 🪪 License
 
 This project is for **educational purposes only** as part of Team Leafly’s capstone project submission.
