@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/images/nooblogo.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Book Meetup Landing Page</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="ReadersHub logo">
+            </div>
+            <i class="fa-solid fa-bars burger"></i>
+            <div class="links">
+                <ul class="list">
+                    <li class="list-items"><a href="#home">Home</a></li>
+                    <li class="list-items"><a href="#about">About</a></li>
+                    <li class="list-items"><a href="#about">Benefits</a></li> 
+                </ul>
+            </div>
+            <a href="#subscribe" class="button" style="color: white; font-weight: 700;">Subscribe</a>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+        <!-- HERO-->
+        <section class="hero" id="home">
+            <!-- Part 1-->
+            <section class="part-1">
+               <div class="hero-text-1">
+                    <h1>Your Next <span class="underline">Chapter</span> Starts Here.</h1>
+                </div>
+                <div class="hero-text-2">
+                    <p>Dive into a vibrant community where literature meets friendship. Discover new books, share your passion, and join the conversation.</p>
+                </div>
+                <a href="#subscribe" class="hero-btn">Subscribe Now & Join the Club</a> 
+            </section>
+
+            <!-- Part 2-->
+            <section class="img-div">
+                <img src="./assets/images/hero-img.png" alt="Bookclub Members">
+            </section>
+        </section>
+
+        <hr>
+
+         <!-- About and Benefits -->
+        <section class="about-and-benefits" id="about">
+            <!--About-->
+            <section class="about">
+                <div class="about-text">
+                    <h2 class="about-text-1">More Than Just a <span class="underline">Book Club</span>.</h2>
+                    <p class="about-text-2">Readers Hub is the premier online destination for young adults to connect over shared stories. We foster a positive, engaging environment built around thoughtful discussion, diverse genres, and a love for reading that lasts a lifetime.</p>
+                </div>
+                <div class="about-img">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+            </section>
+            <!--Benefits-->
+            <section class="benefits">
+                <h2 class="benefits-text"> What You'll <span class="underline">Gain</span> </h2>
+                <section class="benefits-boxes">
+                    <div class="benefits-box"> 
+                        <i class="fa-solid fa-comments"></i>
+                        <p>Book Discussions</p>
+                    </div>
+                    <div class="benefits-box"> 
+                        <i class="fa-solid fa-trophy"></i>
+                        <p>Reading Challenges</p>
+                    </div>
+                    <div class="benefits-box"> 
+                        <i class="fa-solid fa-star"></i>
+                        <p>Exclusive Updates</p>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <hr id="subscribe">
+        <!-- Newsletter SignUp-->
+        <section class="newsletter-signup">
+            <div class="newsletter-box">
+                <h2 class="newsletter-text"> <span class="underline">Subscribe</span> to Newsletter </h2>
+                <form id="form" name="users" method="POST" data-netlify="true">
+                    <label for="username">Name: </label>
+                    <input type="text" id="username" name="username" placeholder="Enter Full Name" class="inputs" required>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter Valid Email Address" class="inputs" required>
+                    <button type="submit" id="submit-btn" class="submit-btn">Subscribe</button>
+                </form> 
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <section id="modal-box" class="modal-box">
+        <div id="modal">
+            <p id="modal-text"></p>
+            <button id="modal-btn"> Close</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Readers Hub. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

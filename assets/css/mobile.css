@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+    /*===== GENERAL =====*/
+    #subscribe {
+        scroll-margin-top: 5.5rem;
+    }
+
+    #about {
+        scroll-margin-top: 10rem;
+    }
+
+    #modal {
+        min-width: 90%;
+        padding: 3rem;
+    }
+
+    #modal-text {
+        font-size: 1.1rem;
+    }
+
+    /*=====NAVBAR=====*/
+    .burger {
+        display: block !important;
+        margin-top: 1rem;
+    }
+
+    .links {
+        display: flex;
+        position: absolute;
+        background-color: var(--color-background-light);
+        top: 4.4rem;
+        right: 0;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        height: 60rem;
+        transform: translateX(100%);
+        transition: 0.5s;
+        z-index: 1000;
+    }
+
+    .links.open {
+        transform: translateX(0);
+    }
+
+    .list {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .button {
+        display: none;
+    }
+
+    /*===== HERO =====*/
+    main {
+        margin-bottom: 1rem;
+    }
+
+    .hero {
+        flex-basis: 100%;
+        flex-direction: column-reverse;
+        padding: 7rem 0.5rem 3rem 0.5rem !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part-1 {
+        min-width: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-div {
+        min-width: none;
+    }
+
+    .hero-text-1 {
+        min-width: 100%;
+        font-size: 1.5rem !important;
+    }
+
+    .hero-text-2 {
+        min-width: 95%;
+        font-size: 1.1rem !important;
+    }
+
+    .hero-btn {
+        padding: 1rem !important;
+        text-align: center;
+    }
+
+
+    /*===== ABOUT AND BENEFITS =====*/
+    .about-and-benefits {
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: flex-start !important;
+        padding: 0 !important;
+    }
+
+    .about {
+        padding: 0 2.5rem !important;
+        min-width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .about-text {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .about-text-1 {
+        font-size: 2rem !important;
+    }
+
+    .about-text-2 {
+        font-size: 1.2rem !important;
+        margin-top: 2rem;
+    }
+
+    .about-img {
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+    }
+
+    .fa-book-open {
+        font-size: 5rem !important;
+    }
+
+    /*===== BENEFITS =====*/
+    .benefits {
+        flex-direction: column;
+        min-width: 100%;
+        padding: 2rem 0 0 0 !important;
+        margin: 0;
+    }
+
+    .benefits-text {
+        font-size: 2rem !important;
+        font-weight: 400;
+    }
+
+    .benefits-boxes {
+        gap: 0.5rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits-box {
+        min-width: 80%;
+        justify-content: center;
+    }
+
+    .benefits i {
+        font-size: 4rem !important;
+    }
+
+    .benefits p {
+        font-size: 1.5rem !important;
+    }
+
+    /*===== NEWSLETTER BOX =====*/
+    .newsletter-signup {
+        padding: 0 1rem !important;
+        justify-content: flex-start !important;
+        margin: 0;
+    }
+
+    .newsletter-box {
+        min-width: 100%;
+    }
+
+    .newsletter-text {
+        font-size: 2.5rem !important;
+    }
+
+    /*===== FOOTER =====*/
+    footer {
+        padding: 2rem 1rem !important;
+        justify-content: left !important;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .social-links a i {
+        font-size: 1rem;
+    }
+}
